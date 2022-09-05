@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan Form</title>
+    </head>
+    <body>
+        <form name="frmLatihan" method="GET" action="#">
+            <table border="1" align="center" cellpadding="15" width="40%">
+                <thead>
+                    <tr bgcolor="grey">
+                        <th colspan="2" >Latihan Form</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="25%"><label>Nama</label></td>
+                        <td>
+                            <input type="text" name="nama" value="" placeholder="Nama Lengkap" size="50" maxlength="100"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>
+                            <input type="text" name="mail" value="" placeholder="Alamat Email" size="50" maxlength="100"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="L"/>Laki-laki&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="P" checked/>Perempuan  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><label>Hobby</label></td>
+                        <td>
+                            <input type="checkbox" name="Hobby" value="reading"/>Reading<br/>
+                            <input type="checkbox" name="Hobby" value="watching"/>Watching<br/>
+                            <input type="checkbox" name="Hobby" value="painting" checked/>Painting<br/>
+                            <input type="checkbox" name="Hobby" value="travelling"/>Travelling<br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Pendidikan</label></td>
+                        <td>
+                            <select name="Pendidikan">
+                                <option value="">-- pilih salah satu --</option>
+                                <option value="smp">SMP</option>
+                                <option value="sma/smk">SMA/SMK</option>
+                                <option value="d3">D3</option>
+                                <option value="s1">S1</option>
+                                <option value="s2">S2</option>
+                                <option value="s3">S3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><label>Komentar</label></td>
+                        <td>
+                            <textarea name="komentar" rows="3" cols="30" color=""></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr bgcolor="grey">
+                        <th colspan="2" >
+                            <input type="submit" name="proses" value="Kirim"/>&nbsp;&nbsp;
+                            <input type="reset" name="unproses" value="Batal"/>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </body>
+</html>

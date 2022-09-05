@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: #966D8B;
+}
+p {
+    color:#444444;
+    text-align:justify;
+    font-family:calibri, verdana, comic sans, tahoma;
+    font-size:12pt;
+    font-style: italic;
+}
+body{
+    /*background-image: linear-gradient(re, green, blue, yellow); */
+    background-color: white;
+    background-image: url('../img/Pink\ \(5\).png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 3cm; /* margin-top&bottom=0cm, margin-left&right=3cm */
+}
+hr{
+    border-width: 3px;
+    border-color: #B798AD;
+    border-style: dotted;
+}
+/* groupping */
+fieldset, legend{
+    border: #966D8B groove 5px;
+}
+legend {
+    padding: 10px; /* all padding */
+    background-color: #966D8B;
+    color: white;
+    font-weight: bold;
+    font-size: 9pt; 
+    text-align: left;
+    text-transform: capitalize; /* ketebalan text */
+    font-family: arial; /* font tulisan text */
+    letter-spacing: 0px; /* menentukan jarak text */
+}
+footer p{
+    text-align: center;
+    color: #444444;
+}
